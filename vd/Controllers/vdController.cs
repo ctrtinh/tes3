@@ -6,11 +6,10 @@ using System.Web.Mvc;
 
 namespace vd.Controllers
 {
-    public class HomeController : Controller
+    public class vdController : Controller
     {
         public ActionResult Index()
         {
-            // hihihi
             return View();
         }
 
@@ -26,6 +25,7 @@ namespace vd.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+            ///sssss
         }
     }
 }
